@@ -1,0 +1,366 @@
+/*Top Bar Settings*/
+.topbar {
+  width: 1920px;
+  height: 100px;
+  border-bottom: 1px solid yellow;
+  padding: 0px;
+}
+.topbar-container {
+  width: 1920px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 0px 0px 0px 20px;
+}
+.menu ul li a:hover {
+  color: green;
+}
+.menu ul li a:hover,
+a.active {
+  color: green !important;
+}
+.menu-logo i {
+  padding: 10px;
+}
+/*Slider Settings*/
+.slider-container {
+  width: 1920px;
+  height: 720px;
+  background-image: url("images/slider/slider-1.jpg");
+}
+
+.slider {
+  width: 600px;
+  display: flex;
+  margin: 0px 100px;
+}
+
+.slider-icerik h1 {
+  margin: 5px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.slider-icerik {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 300px 0 auto;
+}
+.button ul li {
+  display: inline-block;
+}
+.button ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 0px 50px;
+  font-size: 18px;
+}
+
+.button ul li a:hover {
+  background-color: rgb(74, 189, 74);
+}
+.button ul li a:hover,
+a.negative {
+  background-color: rgb(74, 189, 74) !important;
+}
+
+/*Mission Settings*/
+.mission-resim img {
+  display: flex;
+  width: 960px;
+  height: 900px;
+}
+.mission-yazi {
+  width: 960px;
+  height: 900px;
+  text-align: center;
+}
+.mission-icerik {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.mission-yazi h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mission-yazi p {
+  margin: 20px 40px;
+  padding: 0px 50px;
+}
+.mission-text2 h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mission-text2 p {
+  margin: 20px 40px;
+  padding: 0px 50px;
+}
+
+/*Success Settings*/
+.success-icerik {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.success-resim img {
+  width: 960px;
+  height: 450px;
+}
+.success-yazi {
+  order: 1;
+  width: 960px;
+  height: 450px;
+}
+.success-resim {
+  order: 3;
+}
+.success-yazi h1 {
+  margin: 100px 150px;
+}
+.success-yazi p {
+  margin: 70px 100px;
+  padding: 6px 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+/*Succes2 Settings*/
+.success2-resim2 img {
+  width: 960px;
+  height: 450px;
+}
+.success-yazi2 {
+  width: 960px;
+  height: 450px;
+}
+.success-icerik2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: end;
+}
+
+.success-yazi2 h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px 150px;
+}
+.success-yazi2 p {
+  margin: 100px 150px;
+  padding: 0px 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+/*Project Settings*/
+
+.proje-container {
+  width: 1920px;
+  height: 640px;
+}
+.proje {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.proje-resim {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  
+}
+.resim1,.resim2,.resim3,.resim4,.resim5,.resim6 p{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.resim1 {
+  background-image: url("images/project/project-1.jpg");
+  width: 640px;
+  height: 420px;
+}
+
+.resim2 {
+  background-image: url("images/project/project-2.jpg");
+  width: 640px;
+  height: 420px;
+}
+.resim3 {
+  background-image: url("images/project/project-3.jpg");
+  width: 640px;
+  height: 420px;
+}
+.resim4{
+    background-image: url('images/project/project-4.jpg');
+    width: 640px;
+    height: 420px;
+}
+.resim5{
+    background-image: url('images/project/project-5.jpg');
+    width: 640px;
+    height: 420px;
+}
+
+.resim6{
+    background-image: url('images/project/project-6.jpg');
+    width: 640px;
+    height: 420px;
+}
+
+
+
+/*Team Settings*/
+.takim-container {
+  width: 1920px;
+  height: 650px;
+}
+.takim {
+  
+  float: left;
+}
+.Glen {
+  width: 480px;
+  height: 650px;
+  background-image: url("images/team/team-1.jpg");
+  float: left;
+}
+.Glen p {
+  display: flex;
+  justify-content: center;
+  
+  padding: 0px 0px;
+  font-size: 25px;
+  margin: 0 auto;
+  color:white;
+}
+.Glen h1 {
+  display: flex;
+  justify-content: center;
+  padding: 320px 0px 0px 0px;
+  font-size: 35px;
+  margin: 0 auto;
+}
+
+.Eva {
+  width: 480px;
+  height: 650px;
+  background-image: url("images/team/team-2.jpg");
+  float: left;
+}
+.Eva p {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px;
+  font-size: 25px;
+  margin: 0 auto;
+  color:white;
+}
+.Eva h1 {
+  display: flex;
+  justify-content: center;
+  padding: 320px 0px 0px 0px;
+  font-size: 35px;
+  margin: 0 auto;
+}
+.Ethan {
+  width: 480px;
+  height: 650px;
+  background-image: url("images/team/team-3.jpg");
+  float: left;
+}
+.Ethan p {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px;
+  font-size: 25px;
+  margin: 0 auto;
+  color:white;
+}
+.Ethan h1 {
+  display: flex;
+  justify-content: center;
+  padding: 320px 0px 0px 0px;
+  font-size: 35px;
+  margin: 0 auto;
+}
+.Maud {
+  width: 480px;
+  height: 650px;
+  background-image: url("images/team/team-4.jpg");
+  float: left;
+}
+.Maud p {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px;
+  font-size: 25px;
+  margin: 0 auto;
+  color:white;
+}
+.Maud h1 {
+  display: flex;
+  justify-content: center;
+  padding: 320px 0px 0px 0px;
+  font-size: 35px;
+  margin: 0 auto;
+}
+/*Footer Settings*/
+.footer{
+  width: 1920px;
+  height: 700px;
+  background-color: #a8ca01;
+}
+.footer-yazi {
+  width: 1200px;
+}
+.footer-yazi h1 {
+  color: #faf9ff;
+  font-size: 30px;
+
+  padding: 450px 0px 0px 0px;
+  text-align: center;
+}
+.footer-yazi p {
+  color: #faf9ff;
+  font-size: 16px;
+
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+}
+.footer-btn {
+  width: 200px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 0px 100px 0px 0px;
+}
+
+.footer-btn ul li {
+  display: inline-block;
+}
+
+.footer-btn ul li a {
+  text-decoration: none;
+  color: rgb(170, 16, 16);
+}
